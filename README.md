@@ -22,7 +22,7 @@ User form input that submits contact information.
 
 ## Authors
 
-* **ZT Yang** - *Initial work* - [github](https://github.com/zyang888)
+* **ZT Yang** - [github](https://github.com/zyang888)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
