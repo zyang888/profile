@@ -1,32 +1,22 @@
-# HTML5300 Course Project
+# project
 
-The goal of this course project is to
+> My world-class Nuxt.js project
 
-* Build a responsive site with a modern design of your choosing.
-* Choose a topic that is not controversial or political.
-* Use Vue as a front-end framework.
-* Build visualizations of public data from a third-party API.
-* Use professional project management strategy.
+## Build Setup
 
-## Topic
+``` bash
+# install dependencies
+$ npm run install
 
-I want to build myself a personal website that could be used as my online resume.
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-The website should have a home page that briefly lists my experiences and skills, a contact page where users can submit their contact information, and an About page that tells my story and skills in detail.
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-### API
+# generate static project
+$ npm run generate
+```
 
-
-* Google map shows my current location.
-* OMDB api https://www.omdbapi.com/ lists my favorite movie
-* Api football shows updates from my favorite team
-
-## Authors
-
-* **ZT Yang** - [github](https://github.com/zyang888)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the 737MAX MACAS License - see the [LICENSE.md](LICENSE.md) file for details
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
