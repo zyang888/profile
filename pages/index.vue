@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-jumbotron>
-      <template v-slot:header>Assignment08</template>
+      <template v-slot:header>CourseProject</template>
       <template v-slot:lead>
         Use the Mixin button below and the submit button on form page to see Mixin function
       </template>
