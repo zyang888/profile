@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'HTML300 Final Project',
     meta: [{
         charset: 'utf-8'
       },
@@ -15,7 +15,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: process.env.npm_package_description || 'HTML300 Final Project'
       }
     ],
     link: [{
@@ -36,6 +36,7 @@ export default {
       "/Recipes"
     ]
   },
+
 
   /*
    ** Customize the progress-bar color

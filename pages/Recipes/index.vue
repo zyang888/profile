@@ -39,6 +39,15 @@ export default {
         }, 1500)
       })
     })
+  },
+  head () {
+    return {
+      title: 'recipes',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'recipes', name: 'recipes', content: 'recipes description' }
+      ]
+    }
   }
 }
 

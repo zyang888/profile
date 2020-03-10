@@ -20,6 +20,15 @@ export default {
         { id: '3', title: 'accordion 3', text: `accordion 3` }
       ]
     }
-  }
+  },
+  head () {
+    return {
+      title: 'accordion',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'accordion', name: 'accordion', content: 'accordion description' }
+      ]
+    }
+  },
 }
 </script>

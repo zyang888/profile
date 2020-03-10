@@ -42,7 +42,16 @@ export default {
         { group: '2', alt: 'random', src: 'https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg' }
       ]
     }
-  }
+  },
+  head () {
+    return {
+      title: 'Image',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'Image', name: 'Image', content: 'Image description' }
+      ]
+    }
+  },
 }
 </script>
 

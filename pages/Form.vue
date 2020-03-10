@@ -32,6 +32,15 @@ export default {
       toggle: false
     }
   },
-  mixins: [myButton]
+  mixins: [myButton],
+  head () {
+    return {
+      title: 'Form',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'Form', name: 'Form', content: 'Form description' }
+      ]
+    }
+  },
 }
 </script>

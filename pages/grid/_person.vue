@@ -11,6 +11,15 @@
 
 export default {
   name: 'personpage',
-  props: ['first', 'last', 'age']
+  props: ['first', 'last', 'age'],
+  head () {
+    return {
+      title: 'person',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'person', name: 'person', content: 'person description' }
+      ]
+    }
+  }
 }
 </script>
